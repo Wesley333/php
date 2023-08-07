@@ -3,3 +3,16 @@ body{
     text-align: center;
     font-size: x-large;
 }
+
+.fundoImpar{
+    background: red;
+    display: inline-block;
+}
+.fundoPar{
+    
+    background: yellow;
+    display: inline-block;
+}
+.echo{
+    display: inline-block;
+}
