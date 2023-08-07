@@ -16,7 +16,7 @@
         echo '<br />';
         echo '<input type="number" id="number2" name="number2" placeholder="Digite o segundo número" style="width: 300px;height: 25px;text-align:center;">';
         echo '<br>';
-        echo '<button type="submit">Enviar</button>';
+        echo '<button type="submit" style="width: 115px; cursor: pointer;">Enviar</button> ';
         echo '<h1>Observe os números abaixo:</h1>';
 
         echo "O Primeiro número é igual ah:  $_POST[number1]";
