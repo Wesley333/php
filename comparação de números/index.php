@@ -25,7 +25,7 @@
         echo "O Segundo número é igual ah: $_POST[number2]";
         echo '<br />';
         echo '<hr>';
-        echo '<h2>Agora vamos verificar se o primeiro número é maior ou menor que segundo número:</h2>';
+        echo '<h2>Agora vamos verificar se o primeiro número é maior ou menor que o segundo número:</h2>';
 
         if ($_POST['number1'] > $_POST['number2']) {
             $maior_numero = $_POST['number1'];
