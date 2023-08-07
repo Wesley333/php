@@ -23,10 +23,8 @@
         echo '<br />';
         echo 'O Segundo número é igual ah: ' . $_POST['number2'];
         echo '<br />';
-
+ echo '<hr>';
         echo '<h2>Agora vamos verificar se é o primeiro é maior ou menor que segundo:</h2>';
-        echo '<hr>';
-        echo '<h2>Resultado:</h2>';
 
         if ($_POST['number1'] > $_POST['number2']) {
             $maior_numero = $_POST['number1'];
@@ -77,19 +75,20 @@
 
         for ($i = $menor_numero + 1; $i < $maior_numero; $i++) {
             if ($i % 2 != 0) {
-                echo "<div class='fundoImpar'>". $i ."</div>";
+                echo "<div class='fundoImpar'>" . $i . "</div>";
                 if ($i < $maior_numero - 1) {
                     echo ', ';
                 }
             }
             if ($i % 2 == 0) {
-                echo "<div class='fundoPar'>". $i ."</div>";
-                if ($i < $maior_numero - 2) {
+                echo "<div class='fundoPar'>" . $i . "</div>";
+                if ($i < $maior_numero - 1) {
                     echo ', ';
                 }
             }
         }
         ?>
-    </body>
+    </form>
+</body>
 
 </html>
