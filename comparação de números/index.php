@@ -42,7 +42,7 @@
 
         echo '<hr>';
 
-        echo '<h2>A soma do $n1 mais o $n2: </h2>';
+        echo '<h2>A soma do Primeiro número mais o Segundo número: </h2>';
         $soma = $_POST['number1'] + $_POST['number2'];
         echo 'A soma dos números ' . $_POST['number1'] . '+' . $_POST['number2'] . ' eh igual ah:' . $soma;
         echo '<br>';
