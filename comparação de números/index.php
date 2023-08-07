@@ -12,37 +12,37 @@
 
     <form method="post">
         <?php
-        echo '<input type="number" id="number1" name="number1" placeholder="Digite o primeiro número">';
+        echo '<input type="number" id="number1" name="number1" placeholder="Digite o primeiro número" style="width: 300px;height: 25px;margin-bottom: 6px;text-align:center;">';
         echo '<br />';
-        echo '<input type="number" id="number2" name="number2" placeholder="Digite o segundo número">';
+        echo '<input type="number" id="number2" name="number2" placeholder="Digite o segundo número" style="width: 300px;height: 25px;text-align:center;">';
         echo '<br>';
-        echo '<button type="submit">enviar</button>';
+        echo '<button type="submit">Enviar</button>';
         echo '<h1>Observe os números abaixo:</h1>';
 
-        echo 'O Primeiro número é igual ah: ' . $_POST['number1'];
+        echo "O Primeiro número é igual ah:  $_POST[number1]";
         echo '<br />';
-        echo 'O Segundo número é igual ah: ' . $_POST['number2'];
+        echo "O Segundo número é igual ah: $_POST[number2]";
         echo '<br />';
- echo '<hr>';
+        echo '<hr>';
         echo '<h2>Agora vamos verificar se é o primeiro é maior ou menor que segundo:</h2>';
 
         if ($_POST['number1'] > $_POST['number2']) {
             $maior_numero = $_POST['number1'];
             $menor_numero = $_POST['number2'];
-            echo 'O primeiro número que é igual ah: ' . $_POST['number1'] . ' é maior que o segundo número que é igual ah: ' . $_POST['number2'];
+            echo "O primeiro número que é igual ah: $_POST[number1] é maior que o segundo número que é igual ah:  $_POST[number2]";
         } else if ($_POST['number1'] < $_POST['number2']) {
             $maior_numero = $_POST['number2'];
             $menor_numero = $_POST['number1'];
-            echo 'O segundo número que é igual ah: ' . $_POST['number2'] . ' é maior que o primeiro número que é igual ah: ' . $_POST['number1'];
+            echo "O segundo número que é igual ah: $_POST[number2]  é maior que o primeiro número que é igual ah:  $_POST[number1]";
         } else {
-            echo 'O primeiro número é igual ah: ' . $_POST['number1'] . ' e o segundo número também é igual ah: ' . $_POST['number2'] . ' portanto são iguais.';
+            echo "O primeiro número é igual ah: $_POST[number1]  e o segundo número também é igual ah: $_POST[number2] portanto são iguais.";
         }
 
         echo '<hr>';
 
         echo '<h2>A soma do Primeiro número mais o Segundo número: </h2>';
         $soma = $_POST['number1'] + $_POST['number2'];
-        echo 'A soma dos números ' . $_POST['number1'] . '+' . $_POST['number2'] . ' eh igual ah:' . $soma;
+        echo "A soma dos números $_POST[number1]  +  $_POST[number2]  eh igual ah: $soma";
         echo '<br>';
 
         echo '<hr>';
@@ -87,6 +87,7 @@
                 }
             }
         }
+
         ?>
     </form>
 </body>
