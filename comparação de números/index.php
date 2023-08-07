@@ -89,7 +89,7 @@
             }
         }
         echo '<hr>';
-        echo '<h3>&copy; Wesley</h3>'
+        echo '<h3>&copy; Wesley Santos</h3>'
         ?>
     </form>
 </body>
