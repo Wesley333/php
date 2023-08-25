@@ -1,0 +1,17 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+
+    background-color: rgb(197, 198, 198);
+}
+
+input {
+    margin-top: 15px;
+}
+
+.calc {
+    margin-left: 115px;
+    
+}
