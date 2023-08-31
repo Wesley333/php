@@ -50,7 +50,7 @@
                 $total = $n1 / $n2;
             }
         }
-        echo "O resultado de <strong>$n1 $op $n2</strong> é igual ah: <strong>$total</strong>";
+        echo "O resultado da operação matemática <strong>$n1 $op $n2</strong> é igual ah: <strong>$total</strong>";
         ?>
 
     </section>
