@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>calculadora PHP</title>
+    <title>Calculadora PHP</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -40,17 +40,21 @@
         if ($op) {
             if ($op == '+') {
                 $total = $n1 + $n2;
-            } else if ($op == '-') {
+                echo "O resultado da adição de <strong>$n1 $op $n2</strong> é igual á: <strong>$total</strong>";
+            } elseif ($op == '-') {
                 $total = $n1 - $n2;
-            } else if ($op == '*') {
+                echo "O resultado da subtração de <strong>$n1 $op $n2</strong> é igual á: <strong>$total</strong>";
+            } elseif ($op == '*') {
                 $total = $n1 * $n2;
-            } else if ($op == '%') {
-                $total = $n1 % $n2;
-            } else {
+                echo "O resultado da multiplicação de <strong>$n1 $op $n2</strong> é igual á: <strong>$total</strong>";
+            } elseif ($op == '/') {
                 $total = $n1 / $n2;
+                echo "O resultado da divisão de <strong>$n1 $op $n2</strong> é igual á: <strong>$total</strong>";
+            } elseif ($op == '%') {
+                $total = $n1 % $n2;
+                echo "O resto da divisão de <strong>$n1 $op $n2</strong> é igual á: <strong>$total</strong>";
             }
         }
-        echo "O resultado da operação matemática <strong>$n1 $op $n2</strong> é igual ah: <strong>$total</strong>";
         ?>
 
     </section>
