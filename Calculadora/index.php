@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculadora PHP</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" type="image/x-icon" href="https://calculadoranormal.com/wp-content/uploads/2023/02/calculadora-normal-logo.png">
+    <link rel="shortcut icon" href="https://calculadoranormal.com/wp-content/uploads/2023/02/calculadora-normal-logo.png" type="image/x-icon">
 </head>
 
 <body>
