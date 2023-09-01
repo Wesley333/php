@@ -23,11 +23,11 @@
     </section>
     <main>
         <form action="" method="get">
-            <label for="numero1">Digite um número</label>
+            <label for="n1">Digite um número</label>
             <input type="number" name="n1" id="n1" required value="<?= $n1 ?>">
             <label for="op">Escolha a operação</label>
             <input type="text" name="op" id="op" value="<?= $op ?>">
-            <label for="numero2">Digite o segundo número</label>
+            <label for="n2">Digite o segundo número</label>
             <input type="number" name="n2" id="n2" value="<?= $n2 ?>">
             <input type="submit" value="Calcular">
 
