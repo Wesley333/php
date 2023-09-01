@@ -40,19 +40,19 @@
         if ($op) {
             if ($op == '+') {
                 $total = $n1 + $n2;
-                echo "O resultado da adição de <strong>$n1 $op $n2</strong> é igual á: <strong>$total</strong>";
+                echo "O resultado da Adição entre <strong>$n1 $op $n2</strong> é igual á: <strong>($total)</strong>";
             } elseif ($op == '-') {
                 $total = $n1 - $n2;
-                echo "O resultado da subtração de <strong>$n1 $op $n2</strong> é igual á: <strong>$total</strong>";
+                echo "O resultado da Subtração entre <strong>$n1 $op $n2</strong> é igual á: <strong>($total)</strong>";
             } elseif ($op == '*') {
                 $total = $n1 * $n2;
-                echo "O resultado da multiplicação de <strong>$n1 $op $n2</strong> é igual á: <strong>$total</strong>";
+                echo "O resultado da Multiplicação entre <strong>$n1 $op $n2</strong> é igual á: <strong>($total)</strong>";
             } elseif ($op == '/') {
                 $total = $n1 / $n2;
-                echo "O resultado da divisão de <strong>$n1 $op $n2</strong> é igual á: <strong>$total</strong>";
+                echo "O resultado da Divisão entre <strong>$n1 $op $n2</strong> é igual á: <strong>($total)</strong>";
             } elseif ($op == '%') {
                 $total = $n1 % $n2;
-                echo "O resto da divisão de <strong>$n1 $op $n2</strong> é igual á: <strong>$total</strong>";
+                echo "O resto da divisão entre <strong>$n1 $op $n2</strong> é igual á: <strong>($total)</strong>";
             }
         }
         ?>
